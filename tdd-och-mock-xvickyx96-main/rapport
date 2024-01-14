@@ -1,0 +1,41 @@
+# Projektrapport: Test-Driven Development (TDD)
+
+### Namn
+Vikram Singh
+
+### Beskrivning av projektet
+
+Projektet går ut på att enhetstesta koden för att säkerställa dess korrekta funktionalitet genom att mocka API.
+
+### Vad ni har gjort
+Mockat API för enhetstesta, samt skapat klasser som Weather och WeatherService som skall enhetstestas.
+
+## Arbetet och dess genomförande
+
+### Vad som varit svårt
+Tyckte det var svårt att begränsa uppgiften då uppgiften kändes så bredd att vi vill testa andra funktioner.
+När Marcus uppdaterade uppgiften för tydlighet så valde jag att prioritera att bli klar med uppgiften och inte tänka för brett.
+
+### Beskriv lite olika lösningar du gjort
+Efter att jag mockat API klassen skapade jag JSONObject instans för att koda direkt i testklassen. 
+
+### Beskriv något som var besvärligt att få till
+Jag upplevde att det var svårt att komma på olika tester och har att vana att tänkta utifrån assertEquals och var därför svårt att komma på andra ideer.
+Det var även som jag tidigare nämnde svårt att begränsa uppgiften från en början. 
+
+## Slutsatser
+Upplever att det varit en lärorik uppgift där jag tidigare inte tänkt att man kan mocka API och arbeta utifrån det utan att vara ansluten till ett API. Mockning gör även så att man 
+enbart kan fokusera på en viss kod vilket gör det enklare att hitta problem och buggar. Jag lärde mig även vikten av att ständigt enhetstesta och sambandet mellan TDD och Mock.
+
+### Vad gick bra
+Det som gick bra var att man lärde sig vädligt mycket på ett litet projekt vilket jag skulle vilja ha mer av.
+
+### Vad gick dåligt
+Det som gick dåligt var att jag i början av projeket hade svårt att begränsa mig till vad som skulle tas med från JSON samt vad som skulle testas.
+
+### Vad har du lärt dig
+Mocka ett API och enhetstestning. Kopplingen mellan TDD och Mock. Att tänka utanför AssertEquals. 
+
+### Vilka möjligheter ser du med de kunskaper du fått under kursen.
+Jag ser möjligherna till öka användning av TDD och Mock för att kunna testa delar av koden samt smidigt kunna upptäcka buggar och problem. Mockning av API är även något som är användbart då man kan arbeta
+utan att vara ansluten till ett API.

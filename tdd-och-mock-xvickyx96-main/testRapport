@@ -1,0 +1,11 @@
+** TestRapport **
+
+| Test ID | Test Beskrivning                                                 | Förväntat Resultat                     | Verkligt Resultat                     | Status       | Kommentarer                            |
+| ------- | ---------------------------------------------------------------- | -------------------------------------- | ------------------------------------- | ------------ | -------------------------------------- |
+| 1       | Hämta väderinformation för Göteborg, med all väderinfo           | Returnera giltig väderinformation      | Returnerade giltig väderinformation   | Godkänd      | Ingen problem identifierad             |
+| 2       | Hämta väderinformation för en ogiltig stad (ex: "")              | Returnera ett felmeddelande            | Returnerade ett felmeddelande         | Godkänd      | Hanterade ogiltig input korrekt        |
+| 3       | Hämta väderinformation för en ogiltig stad (ex: null)            | Returnera ett felmeddelande            | Returnerade ett felmeddelande         | Godkänd      | Hanterade null input korrekt           |
+| 4       | Hämta enbart stadens namn (ex: Göteborg)                         | Returnera giltigt namn på stad         | Returnerade giltigt namn på stad      | Godkänd      | Ingen problem identifierad             |
+| 5       | Hämta enbart information om temperaturen                         | Returnera giltig info om temperatur    | Returnerade giltig info om temperatur | Godkänd      | Ingen problem identifierad             |
+| 6       | Hämta enbart information om molninghet                           | Returnera giltig info om molninghet    | Returnerade giltig info om molninghet | Godkänd      | Ingen problem identifierad             |
+| 7       | Hämta enbart information om vindhastighet                        | Returnera giltig info om vindhastighet | Returnerade info om vindhastighet     | Godkänd      | Ingen problem identifierad             | 
